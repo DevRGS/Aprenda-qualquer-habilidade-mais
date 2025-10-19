@@ -4,6 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { CheckCircle2, BookOpen, Target, BrainCircuit, Zap, Star, ArrowRight, UserCheck, BarChart, AlertTriangle, ShieldCheck, HelpCircle } from "lucide-react";
 import { MadeWithDyad } from "@/components/made-with-dyad";
+import BonusTimer from "@/components/BonusTimer";
 
 const Index = () => {
   const features = [
@@ -205,10 +206,7 @@ const Index = () => {
           <div className="text-center md:text-left">
             <Star className="w-12 h-12 text-amber-500 mx-auto md:mx-0 mb-4" />
             <h2 className="text-3xl md:text-4xl font-bold mb-4">E ainda tem mais...</h2>
-            <h3 className="text-2xl font-bold mb-2 text-amber-700">BÔNUS EXCLUSIVO (Valor R$47,00)</h3>
-            <p className="text-lg text-gray-600">
-              Ao adquirir o ebook hoje, você recebe um **Cheatsheet de 1 Página** com todo o método resumido. É o seu mapa rápido para consulta diária. Imprima, cole na parede e nunca mais se esqueça do caminho para o aprendizado acelerado!
-            </p>
+            <BonusTimer />
           </div>
           <div className="flex justify-center">
             <img src="https://placehold.co/500x350/f59e0b/ffffff?text=Cheatsheet+Bônus" alt="Bônus Cheatsheet" className="rounded-lg shadow-xl border-4 border-white" />
