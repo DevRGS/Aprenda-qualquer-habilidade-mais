@@ -209,7 +209,7 @@ const Index = () => {
             <BonusTimer />
           </div>
           <div className="flex justify-center">
-            <img src="https://placehold.co/500x350/f59e0b/ffffff?text=Cheatsheet+Bônus" alt="Bônus Cheatsheet" className="rounded-lg shadow-xl border-4 border-white" />
+            <img src="/bonus-cover.jpg" alt="Capa do Ebook Bônus: Como Evitar Quedas de Motivação e Manter Constância" className="rounded-lg shadow-xl" />
           </div>
         </div>
       </section>
