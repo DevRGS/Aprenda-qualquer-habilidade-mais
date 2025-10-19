@@ -32,7 +32,7 @@ const Index = () => {
             {/* --- Mobile-Only Image --- */}
             <div className="md:hidden flex justify-center mb-6">
               <img 
-                src="https://placehold.co/400x500/3b82f6/ffffff?text=Ebook+Cover" 
+                src="/ebook-cover.png" 
                 alt="Capa do Ebook Aprenda Qualquer Coisa em 20 Horas" 
                 className="rounded-lg shadow-2xl max-w-xs w-full" 
               />
@@ -50,7 +50,7 @@ const Index = () => {
           {/* --- Desktop-Only Image --- */}
           <div className="hidden md:flex justify-center">
             <img 
-              src="https://placehold.co/400x500/3b82f6/ffffff?text=Ebook+Cover" 
+              src="/ebook-cover.png" 
               alt="Capa do Ebook Aprenda Qualquer Coisa em 20 Horas" 
               className="rounded-lg shadow-2xl" 
             />
