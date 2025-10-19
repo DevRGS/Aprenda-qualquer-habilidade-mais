@@ -19,12 +19,24 @@ const Index = () => {
   return (
     <div className="w-full min-h-screen bg-slate-50 text-gray-800">
       {/* Hero Section */}
-      <section className="text-center py-20 px-4 bg-white">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div className="text-left">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight">
+      <section className="text-center md:text-left py-12 md:py-20 px-4 bg-white">
+        <div className="max-w-6xl mx-auto md:grid md:grid-cols-2 md:gap-12 md:items-center">
+          
+          {/* Text & Mobile Image Wrapper */}
+          <div className="flex flex-col items-center md:items-start">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
               Aprenda Qualquer Coisa em 20 Horas
             </h1>
+            
+            {/* --- Mobile-Only Image --- */}
+            <div className="md:hidden flex justify-center mb-6">
+              <img 
+                src="https://placehold.co/400x500/3b82f6/ffffff?text=Ebook+Cover" 
+                alt="Capa do Ebook Aprenda Qualquer Coisa em 20 Horas" 
+                className="rounded-lg shadow-2xl max-w-xs w-full" 
+              />
+            </div>
+
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               O Guia Prático para Dominar Novas Habilidades, Destravar seu Potencial e Parar de Abandonar Seus Sonhos no Meio do Caminho.
             </p>
@@ -33,8 +45,14 @@ const Index = () => {
             </Button>
             <p className="text-sm text-gray-500 mt-4">Acesso imediato. Comece a aprender hoje mesmo.</p>
           </div>
-          <div className="flex justify-center">
-            <img src="https://placehold.co/400x500/3b82f6/ffffff?text=Ebook+Cover" alt="Capa do Ebook Aprenda Qualquer Coisa em 20 Horas" className="rounded-lg shadow-2xl" />
+
+          {/* --- Desktop-Only Image --- */}
+          <div className="hidden md:flex justify-center">
+            <img 
+              src="https://placehold.co/400x500/3b82f6/ffffff?text=Ebook+Cover" 
+              alt="Capa do Ebook Aprenda Qualquer Coisa em 20 Horas" 
+              className="rounded-lg shadow-2xl" 
+            />
           </div>
         </div>
       </section>
@@ -219,7 +237,7 @@ const Index = () => {
               <AccordionTrigger className="text-lg font-semibold p-4 bg-white rounded-lg shadow hover:bg-slate-100"><HelpCircle className="inline-block mr-2 text-blue-600" />E se eu não tiver "talento" nenhum?</AccordionTrigger>
               <AccordionContent className="text-base p-4 bg-white rounded-b-lg">
                 Este ebook é especialmente para você. Um dos primeiros módulos é dedicado a quebrar o "mito do talento" e provar que qualquer habilidade é treinável com o método certo. O sucesso depende do sistema que você usa, não de um dom inato.
-              </AccordionContent>
+              </A ccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
