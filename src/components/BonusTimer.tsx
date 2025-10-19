@@ -49,7 +49,7 @@ const BonusTimer = () => {
       <div>
         <h3 className="text-2xl font-bold mb-2 text-red-600">OFERTA EXPIRADA</h3>
         <p className="text-lg text-gray-600">
-          O bônus agora custa <span className="font-bold text-red-700">R$19,90</span>. Adicione ao seu pedido.
+          O bônus agora custa <span className="font-bold text-red-700">R$47,00</span>. Adicione ao seu pedido.
         </p>
       </div>
     );
@@ -85,7 +85,7 @@ const BonusTimer = () => {
         </div>
       )}
       <p className="text-sm text-gray-500 mt-4">
-        Após o término do cronômetro, o bônus custará R$19,90.
+        Após o término do cronômetro, o bônus custará R$47,00.
       </p>
     </div>
   );
