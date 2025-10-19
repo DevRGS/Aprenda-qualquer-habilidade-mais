@@ -237,7 +237,7 @@ const Index = () => {
               <AccordionTrigger className="text-lg font-semibold p-4 bg-white rounded-lg shadow hover:bg-slate-100"><HelpCircle className="inline-block mr-2 text-blue-600" />E se eu não tiver "talento" nenhum?</AccordionTrigger>
               <AccordionContent className="text-base p-4 bg-white rounded-b-lg">
                 Este ebook é especialmente para você. Um dos primeiros módulos é dedicado a quebrar o "mito do talento" e provar que qualquer habilidade é treinável com o método certo. O sucesso depende do sistema que você usa, não de um dom inato.
-              </A ccordionContent>
+              </AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
