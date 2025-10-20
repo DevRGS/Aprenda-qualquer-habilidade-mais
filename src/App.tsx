@@ -13,7 +13,11 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      {/*
+        AQUI ESTÁ A CORREÇÃO:
+        Adicione o 'basename' com o nome do seu repositório.
+      */}
+      <BrowserRouter basename="/Aprenda-qualquer-habilidade-mais/">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
