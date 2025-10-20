@@ -41,9 +41,11 @@ const Index = () => {
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               O Guia Prático para Dominar Novas Habilidades, Destravar seu Potencial e Parar de Abandonar Seus Sonhos no Meio do Caminho.
             </p>
-            <Button size="lg" className="text-lg px-8 py-6 bg-blue-600 hover:bg-blue-700 text-white shadow-lg transform hover:scale-105 transition-transform">
-              Quero Meu Ebook Agora! <ArrowRight className="ml-2" />
-            </Button>
+            <a href="https://pay.cakto.com.br/kppx3we_614029" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="text-lg px-8 py-6 bg-blue-600 hover:bg-blue-700 text-white shadow-lg transform hover:scale-105 transition-transform">
+                Quero Meu Ebook Agora! <ArrowRight className="ml-2" />
+              </Button>
+            </a>
             <p className="text-sm text-gray-500 mt-4">Acesso imediato. Comece a aprender hoje mesmo.</p>
           </div>
 
@@ -235,7 +237,7 @@ const Index = () => {
               <AccordionTrigger className="text-lg font-semibold p-4 bg-white rounded-lg shadow hover:bg-slate-100"><HelpCircle className="inline-block mr-2 text-blue-600" />E se eu não tiver "talento" nenhum?</AccordionTrigger>
               <AccordionContent className="text-base p-4 bg-white rounded-b-lg">
                 Este ebook é especialmente para você. Um dos primeiros módulos é dedicado a quebrar o "mito do talento" e provar que qualquer habilidade é treinável com o método certo. O sucesso depende do sistema que você usa, não de um dom inato.
-              </AccordionContent>
+              </A ccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
@@ -250,9 +252,11 @@ const Index = () => {
           <p className="text-lg text-gray-300 mb-8">
             O poder de aprender qualquer coisa está ao seu alcance. Você só precisa do mapa certo. Este é o mapa. Daqui a um mês, você pode estar no mesmo lugar de hoje ou pode estar celebrando o domínio de uma nova habilidade. A escolha é sua.
           </p>
-          <Button size="lg" className="text-xl px-10 py-8 bg-blue-600 hover:bg-blue-700 text-white shadow-lg animate-pulse">
-            Sim, Quero Aprender Mais Rápido!
-          </Button>
+          <a href="https://pay.cakto.com.br/kppx3we_614029" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="text-xl px-10 py-8 bg-blue-600 hover:bg-blue-700 text-white shadow-lg animate-pulse">
+              Sim, Quero Aprender Mais Rápido!
+            </Button>
+          </a>
           <div className="flex items-center justify-center mt-6 space-x-2">
             <ShieldCheck className="w-6 h-6 text-green-400" />
             <p className="text-sm text-gray-400">Compra segura | Acesso imediato | Garantia de 7 dias</p>
