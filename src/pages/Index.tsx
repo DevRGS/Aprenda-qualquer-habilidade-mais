@@ -6,6 +6,12 @@ import { CheckCircle2, BookOpen, Target, BrainCircuit, Zap, Star, ArrowRight, Us
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import BonusTimer from "@/components/BonusTimer";
 
+// --- CORREÇÃO AQUI (1/3): Importe as imagens ---
+// Usamos o '@' que é um atalho para a pasta 'src/'
+import ebookCoverImg from "@/assets/images/ebook-cover.png";
+import bonusCoverImg from "@/assets/images/bonus-cover.jpg";
+
+
 const Index = () => {
   const features = [
     "O mito do talento e por que ele está te paralisando.",
@@ -32,7 +38,8 @@ const Index = () => {
             {/* --- Mobile-Only Image --- */}
             <div className="md:hidden flex justify-center mb-6">
               <img 
-                src="/ebook-cover.png" 
+                // --- CORREÇÃO AQUI (2/3): Use a variável da imagem ---
+                src={ebookCoverImg} 
                 alt="Capa do Ebook Aprenda Qualquer Coisa em 20 Horas" 
                 className="rounded-lg shadow-2xl max-w-xs w-full" 
               />
@@ -52,7 +59,8 @@ const Index = () => {
           {/* --- Desktop-Only Image --- */}
           <div className="hidden md:flex justify-center">
             <img 
-              src="/ebook-cover.png" 
+              // --- CORREÇÃO AQUI (2/3): Use a variável da imagem ---
+              src={ebookCoverImg} 
               alt="Capa do Ebook Aprenda Qualquer Coisa em 20 Horas" 
               className="rounded-lg shadow-2xl" 
             />
@@ -216,7 +224,8 @@ const Index = () => {
             </a>
           </div>
           <div className="flex justify-center">
-            <img src="/bonus-cover.jpg" alt="Capa do Ebook Bônus: Como Evitar Quedas de Motivação e Manter Constância" className="rounded-lg shadow-xl" />
+            {/* --- CORREÇÃO AQUI (3/3): Use a variável da imagem --- */}
+            <img src={bonusCoverImg} alt="Capa do Ebook Bônus: Como Evitar Quedas de Motivação e Manter Constância" className="rounded-lg shadow-xl" />
           </div>
         </div>
       </section>
