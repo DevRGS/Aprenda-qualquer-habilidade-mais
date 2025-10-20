@@ -257,8 +257,8 @@ const Index = () => {
           <p className="text-lg text-gray-300 mb-8">
             O poder de aprender qualquer coisa está ao seu alcance. Você só precisa do mapa certo. Este é o mapa. Daqui a um mês, você pode estar no mesmo lugar de hoje ou pode estar celebrando o domínio de uma nova habilidade. A escolha é sua.
           </p>
-          <a href="https://pay.cakto.com.br/kppx3we_614029" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="text-xl px-10 py-8 bg-blue-600 hover:bg-blue-700 text-white shadow-lg animate-pulse">
+          <a href="https://pay.cakto.com.br/kppx3we_614029" target="_blank" rel="noopener noreferrer" className="inline-block">
+            <Button size="lg" className="text-lg md:text-xl px-6 md:px-10 py-6 md:py-8 bg-blue-600 hover:bg-blue-700 text-white shadow-lg animate-pulse">
               Sim, Quero Aprender Mais Rápido!
             </Button>
           </a>
