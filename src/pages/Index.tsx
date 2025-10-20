@@ -209,6 +209,11 @@ const Index = () => {
             <Star className="w-12 h-12 text-amber-500 mx-auto md:mx-0 mb-4" />
             <h2 className="text-3xl md:text-4xl font-bold mb-4">E ainda tem mais...</h2>
             <BonusTimer />
+            <a href="https://pay.cakto.com.br/kppx3we_614029" target="_blank" rel="noopener noreferrer" className="mt-8 inline-block">
+              <Button size="lg" className="text-lg px-8 py-6 bg-green-600 hover:bg-green-700 text-white shadow-lg transform hover:scale-105 transition-transform">
+                Garantir Ebook + Bônus Grátis <ArrowRight className="ml-2" />
+              </Button>
+            </a>
           </div>
           <div className="flex justify-center">
             <img src="/bonus-cover.jpg" alt="Capa do Ebook Bônus: Como Evitar Quedas de Motivação e Manter Constância" className="rounded-lg shadow-xl" />
